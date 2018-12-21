@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 elice_utils = EliceUtils()
 
-slack_token = "xoxb-503049869125-509524193127-eV09z2S6G3nB6wVJP8gKTQp2"
-slack_client_id = "503049869125.509523623495"
-slack_client_secret = "7b53e637fe308dffc3728021d72a4523"
-slack_verification = "WUPsbJEQkdYWcDjlF7s61FYf"
+slack_token = " your token input "
+slack_client_id = " your client_id input"
+slack_client_secret = " your client_secret input "
+slack_verification = " your verification input "
 sc = SlackClient(slack_token)
 
 
